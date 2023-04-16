@@ -4,7 +4,7 @@ Docker & Docker Compose installed on your local machine
 # Clone the repository:
 git clone https://github.com/glomni/demo_project_Virta.git
 
-# Build Docker Python web server image:
+# Build Docker image for Python web server:
 docker-compose build
 
 # Start Docker containers:
