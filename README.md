@@ -1,4 +1,4 @@
-# Prerequisites 
+# Prerequisites:
 Docker & Docker Compose installed on your local machine
 
 # Clone the repository:
@@ -16,7 +16,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"message": "<any_message>"
 # List all mesages in the DB:
 docker ps --filter "name=demo_project_virta-web-1" //copy the container ID and add it to the next command
 
-docker exec <container_id> python list_messages.py
+docker exec <container d> python list_messages.py
 
 # Test GET method:
 curl http://localhost:8080/messages
