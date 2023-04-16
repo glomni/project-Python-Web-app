@@ -11,7 +11,7 @@ docker-compose build
 docker-compose up   
 
 # Post messages to the /messages endpoint which will insert it into the DB:
-curl -X POST -H "Content-Type: application/json" -d '{"message": "<any_message>"}' http://localhost:8080/messages
+curl -X POST -H "Content-Type: application/json" -d '{"message": "<type_your_message>"}' http://localhost:8080/messages
 
 # List all mesages in the DB:
 docker ps --filter "name=demo_project_virta-web-1" //copy the container_ID and fill it to the next command
